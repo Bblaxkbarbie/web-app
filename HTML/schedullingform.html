@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+</head>
+
+<body>
+    <form action="" id="sign-up">
+        <label for="">Firstname:</label>
+        <div class="error">
+            <p class="errormsg" id="fnerrormsg"></p>
+        </div>
+        <input type="text" name="firstname" id="Firstname"><br><br>
+        <label for="">Lastname:</label>
+        <div class="error">
+            <p class="errormsg" id="lnerrormsg"></p>
+        </div>
+        <input type="text" name="lastname" id="Lastname"><br><br>
+        <label for="">Middlename(optional):</label>
+        <div class="error">
+            <p class="errormsg" id="mnerrormsg"></p>
+        </div>
+        <input type="text" name="middlename" id="Middlename"><br><br>
+        <label for="">Email:</label>
+        <div class="error">
+            <p class="errormsg" id="emailerrormsg"></p>
+        </div>
+        <input type="email" name="email" id="Email"><br><br>
+        <label for="">Phone number(Optional):</label>
+        <div class="error">
+            <p class="errormsg" id="phnoerrormsg"></p>
+        </div>
+        <input type="text" name="phoneno" id="Phonenumber"><br><br>
+        <label for="">Service-type:</label> <br>
+        <div class="error">
+            <p class="errormsg" id="sterrormsg"></p>
+        </div>
+        <input type="radio" name="service-type" id="consultation" value="Consultation">Consultation <br>
+        <input type="radio" name="service-type" id="installation" value="Installation">Installation <br><br>
+        <label for="">Address-line 1</label>
+        <div class="error">
+            <p class="errormsg" id="add1errormsg"></p>
+        </div>
+        <input type="text" name="add1" id="Add1"><br><br>
+        <label for="">Address-line 2</label>
+        <div class="error">
+            <p class="errormsg" id="add2errormsg"></p>
+        </div>
+        <input type="text" name="add2" id="Add2"><br><br>
+        <label for="">Postcode: </label>
+        <div class="error">
+            <p class="errormsg" id="postcodeerrormsg"></p>
+        </div>
+        <input type="text" name="postcode" id="Postcode"><br><br>
+        <label for="">City/Town</label>
+        <div class="error">
+            <p class="errormsg" id="cityortownerrormsg"></p>
+        </div>
+        <input type="text" name="cityortown" id="Cityortown"><br><br>
+        <label for="">Time: </label>
+        <div class="error">
+            <p class="errormsg" id="timeerrormsg"></p>
+        </div>
+        <input type="time" name="time" id="Time"><br><br>
+        <label for="">Date: </label>
+        <div class="error">
+            <p class="errormsg" id="dateerrormsg"></p>
+        </div>
+        <input type="date" name="date" id="Date"><br><br>
+        <label for="Add-info">Additional information</label><br>
+        <div class="error">
+            <p class="errormsg" id="addinfoerrormsg"></p>
+        </div>
+        <textarea name="add-info" id="Add-info"></textarea><br><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <script src="/JavaScript/schedulling-form.js"></script>
+</body>
+</html>

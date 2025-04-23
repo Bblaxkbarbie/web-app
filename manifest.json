@@ -1,0 +1,86 @@
+{
+    "name": "",
+    "short_name": "",
+    "description": "",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "",
+    "theme_color":"",
+    "orientation": "portrait-primary",
+    "scope": "/",
+
+    "icons": [
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "20x20"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    
+    "Screenshots": [
+        {
+            "src":"",
+            "sizes": "1920x1080",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src":"",
+            "sizes": "1080x1920",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ]
+}
+
+

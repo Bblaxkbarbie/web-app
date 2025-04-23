@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body>
+    <form action="" id="sign-up">
+    <label for="">Firstname:</label>
+    <div class="error">
+        <p class="errormsg" id="fnerrormsg"></p>
+    </div>
+    <input type="text" name="firstname" id="Firstname"><br><br>
+    <label for="">Lastname:</label>
+    <div class="error">
+        <p class="errormsg" id="lnerrormsg"></p>
+    </div>
+    <input type="text" name="lastname" id="Lastname"><br><br>
+    <label for="">Middlename(optional):</label>
+    <div class="error">
+        <p class="errormsg" id="mnerrormsg"></p>
+    </div>
+    <input type="text" name="middlename" id="Middlename"><br><br>
+    <label for="">Email:</label>
+    <div class="error">
+        <p class="errormsg" id="emailerrormsg"></p>
+    </div>
+    <input type="email" name="email" id="Email"><br><br>
+    <label for="">Password:</label>
+    <div class="error">
+        <p class="errormsg" id="pwderrormsg"></p>
+    </div>
+    <input type="password" name="password" id="Password"><br><br>
+    <label for="">Phone number(Optional):</label>
+    <div class="error">
+        <p class="errormsg" id="phnoerrormsg"></p>
+    </div>
+    <input type="text" name="phoneno" id="Phonenumber">
+
+    <button type="submit" id="submit">Submit</button>
+    </form>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.2.0/bcrypt.min.js"></script>
+<script src="/JavaScript/createAccount.js" type="module"></script>
+
+</body>
+</html>
