@@ -7,12 +7,6 @@ import bcrypt from "https://esm.sh/bcryptjs@2.4.3";
 
   // Your web app's Firebase configuration
   const firebaseConfig = {
-    apiKey: "AIzaSyAbzB4HpiloXoA6Kipmvh_scD2ynEUhE7c",
-    authDomain: "rolsatechsolutions.firebaseapp.com",
-    projectId: "rolsatechsolutions",
-    storageBucket: "rolsatechsolutions.firebasestorage.app",
-    messagingSenderId: "663284555987",
-    appId: "1:663284555987:web:1ed93ad09efb5d3e117426"
   };
 
 // Initialize Firebase, auth and database
